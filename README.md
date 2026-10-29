@@ -32,7 +32,16 @@ None yet. Nothing depends on Circuit.
 
 ```
 codename-circuit/
-\-- README.md         what the project is
+|-- README.md         what the project is
+|-- AGENTS.md         rules for coding assistants: common rules, then the product's own
+|-- CLAUDE.md         shell for Claude Code (@AGENTS.md)
+|-- CONTRIBUTING.md   how to contribute (specs first, GitHub Flow)
+|-- LICENSE           MIT
+|-- specs/            ideas and open questions; requirements, features and decisions as they come
+|-- .githooks/        pre-commit: gitleaks on staged files
+|-- .github/          CI: gitleaks on push and pull request
+|-- .gitleaks.toml    secret scan rules
+\-- .gitignore
 ```
 
 ## Rules
@@ -49,4 +58,3 @@ Nothing yet.
 - Define the first use case and the first integrations.
 - Choose the backend stack and the audit log format; record the choices.
 - Define what "compliant" means for the first release (for example GDPR) and how it is checked.
-- Add `AGENTS.md`, `CLAUDE.md`, `.gitignore`, gitleaks (config, pre-commit, CI) and a license.
