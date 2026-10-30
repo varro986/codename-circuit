@@ -35,7 +35,7 @@ codename-circuit/
 |-- README.md         what the project is
 |-- AGENTS.md         rules for coding assistants: common rules, then the product's own
 |-- CLAUDE.md         shell for Claude Code (@AGENTS.md)
-|-- CONTRIBUTING.md   how to contribute (specs first, GitHub Flow)
+|-- CONTRIBUTING.md   how to contribute (specs first, dev then main)
 |-- LICENSE           MIT
 |-- SECURITY.md       how to report a vulnerability
 |-- CODE_OF_CONDUCT.md
