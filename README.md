@@ -35,12 +35,12 @@ codename-circuit/
 |-- README.md         what the project is
 |-- AGENTS.md         rules for coding assistants: common rules, then the product's own
 |-- CLAUDE.md         shell for Claude Code (@AGENTS.md)
-|-- CONTRIBUTING.md   how to contribute (specs first, GitHub Flow)
+|-- CONTRIBUTING.md   how to contribute (specs first, dev then main)
 |-- LICENSE           MIT
 |-- SECURITY.md       how to report a vulnerability
 |-- CODE_OF_CONDUCT.md
-|-- specs/            brainstorming.md; requirements, architecture and the rest as they come
-|   |-- features/     one folder per feature: spec.md, plan.md, tasks.md
+|-- specs/            brainstorming.md; architecture as it comes
+|   |-- features/     one folder per feature: spec.md, plan.md with its tasks
 |   \-- decisions/    ADRs
 |-- src/              source code
 |-- tests/            tests, from the acceptance criteria
@@ -57,12 +57,3 @@ codename-circuit/
 - **Auditable by design**: every automation and integration call is logged with who, what and when.
 - **On top, not instead**: Circuit integrates the systems a business already uses; it does not replace them.
 
-## Miscellaneous
-
-Nothing yet.
-
-## To do
-
-- Define the first use case and the first integrations.
-- Choose the backend stack and the audit log format; record the choices.
-- Define what "compliant" means for the first release (for example GDPR) and how it is checked.
