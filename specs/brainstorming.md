@@ -1,7 +1,7 @@
 # Brainstorming
 
-Ideas and doubts before anything is decided. An idea becomes work only with the owner's yes; it is never deleted, only
-its status changes.
+Ideas and doubts waiting for a decision. An accepted idea leaves this file for its target; only proposed and rejected
+ideas stay.
 
 ## Ideas
 
@@ -13,9 +13,14 @@ its status changes.
 | IDEA-4 | 30/10 | Auditing from day one. (voice note 30/10) | proposed |
 | IDEA-5 | 30/10 | Multi-tenant: many customers on one infrastructure with segregated data, a product database plus a database per customer project with the customer's specifics. (voice note 30/10) | proposed |
 
+Last id: IDEA-5
+
 ## Open questions
 
 - Circuit and Beacon look related (integration analysis): should the link go into Dependencies, on both sides? (voice note 30/10)
 - The README speaks of JSX interfaces per use case; the voice note of a graphical workflow designer. Are they the same thing, or two parts of the product? (voice note 30/10)
 - 'Keep the organisational principles strongly separate': what exactly should stay separate? (voice note 30/10)
 - Product database and per-customer database: how is the separation enforced (separate databases, schemas, row-level)? (voice note 30/10)
+- Which is the first use case, and which the first integrations? (README, To do)
+- Which backend stack and which audit log format? To record as ADRs. (README, To do)
+- What does 'compliant' mean for the first release (for example GDPR), and how is it checked? (README, To do)
